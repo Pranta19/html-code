@@ -37,3 +37,49 @@ nav ul{
     border: none;
 
 }
+.banner{
+    margin-left: 230px;
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+}
+.banner-info
+{ 
+    max-width:585px
+}
+.btn-sec{
+    padding: 18px 36px;
+    color: #FD6E0A;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+.bnr-gre{
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.bnr-title{
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.para{
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner img{
+    margin-right: 38px;
+
+.banner img {
+    margin-right: 38px;
+}}
