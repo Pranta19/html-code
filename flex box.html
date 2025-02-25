@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Flexbox</title>
+    <style>
+        .table {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border: 1px solid black;
+        }
+        .row {
+            display: flex;
+        }
+        .cell {
+            flex: 1;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <div class="row header">
+            <div class="cell">Name</div>
+            <div class="cell">Age</div>
+            <div class="cell">City</div>
+        </div>
+        <div class="row">
+            <div class="cell">Pranta Dhar</div>
+            <div class="cell">24</div>
+            <div class="cell">Chittagong</div>
+        </div>
+        <div class="row">
+            <div class="cell">Dhiman Dhar</div>
+            <div class="cell">23.4</div>
+            <div class="cell">Chittagong</div>
+        </div>
+        <div class="row">
+            <div class="cell">Tinni Dhar</div>
+            <div class="cell">20</div>
+            <div class="cell">Chittagong</div>
+        </div>
+    </div>
+</body>
+</html>
